@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jenkins All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/arc.mac./IdeaProjects/RestAssured3/src/test/java/Campus/CountryTest.java">
+        <classes>
+            <class name="Campus.CountryTest">
+                <methods>
+                    <include name="createCountry"/>
+                    <include name="createCountryNegative"/>
+                    <include name="updateCountry"/>
+                    <include name="deleteCountryByID"/>
+                    <include name="deleteCountryByIDNegative"/>
+                    <include name="updateCountryNegative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
